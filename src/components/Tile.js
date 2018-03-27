@@ -13,7 +13,6 @@ const Square = style.div`
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    background-color: ${props => props.selected ? "gray" : "transparent"};
     transform: ${props => "rotateZ(" + props.rotation + "deg)"};
 `
 
