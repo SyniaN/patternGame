@@ -1,10 +1,9 @@
 import styled from 'styled-components';
 import React, { Component } from 'react';
-import style from 'styled-components';
 import Tile from './components/Tile';
 import { isNullOrUndefined } from 'util';
 
-const Wrapper = style.div`
+const Wrapper = styled.div`
     width: 300px;
     display: flex;
     flex-wrap: wrap;
@@ -105,9 +104,3 @@ class App extends Component {
 }
 
 export default App;
-
-const Sample = styled.div`
-    height: 300px;
-    width: 300px;
-    background-image: ${props => "url('" + props.imageUrl + "')"};
-`
