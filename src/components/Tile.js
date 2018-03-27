@@ -42,7 +42,6 @@ export default class Tile extends React.Component {
                     onDragStart={this.handleDragStart}
                     onDrop={this.handleDrop}
                     selected={this.props.selected}>
-                    {this.props.children}
                 </Square>
             </div >
         );
